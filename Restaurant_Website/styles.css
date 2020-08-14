@@ -1,0 +1,146 @@
+
+.bg-custom{
+	background-color:black;
+}
+button:focus {
+
+outline: 3px solid;
+outline: 5px auto -webkit-focusring-color;
+
+}
+#title{
+	margin-top:15px;
+}
+
+
+
+
+#label-1,#label-2,#label-3{
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	background:black;
+	color:white;
+	width: 100%;
+	height:15%;
+	display:none;
+	text-align:center;
+	padding-top:7.5px;
+
+}
+#container-1:hover #label-1{
+	display:block;
+}
+#container-2:hover #label-2{
+	display:block;
+}
+#container-3:hover #label-3{
+	display:block;
+}
+
+#container-1,#container-2,#container-3{
+	float:left;
+	height:320px;
+	width:30%;
+	border:1px solid black;
+	position:relative;
+	box-sizing:border-box;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	padding:10px 10px 10px 10px;
+}
+#container-1{
+	margin-left:35px;
+}
+
+#one, #two, #three{
+	
+	height:100%;
+	width: 100%;
+	display:block;
+	
+	
+}
+
+
+
+@media (min-width:992px){
+	#container-1{
+		width:30%;
+	}
+	#container-2{
+		width:30%;
+	}
+	#container-3{
+		width:30%;
+	}
+}
+
+@media (min-width:768px) and (max-width:991px){
+	
+	#container-1{
+		width:45%;
+	}
+	#container-2{
+		width: 45%;
+	}
+	#container-3{
+		margin-top:10px;
+		width:92%;
+		margin-left:35px;
+	}
+
+}
+@media (max-width:767px){
+	#container-1,#container-2,#container-3{
+		margin-top:10px;
+		margin-left:20px;
+		width:95%;
+		
+	}
+
+}
+
+#email{
+	background-image: url(images/email.png);
+	background-size: 100% 100%;
+	background-color:#f53f38;
+	text-align:center;
+	margin-top:10px;
+	float:left;
+	width:50%;
+	border:1px black solid;
+	height:280px;
+}
+#call{
+	background-image: url(images/call.png);
+	background-size: 100% 100%;
+	text-align:center;
+	margin-top:10px;
+	float:left;
+	width:50%;
+	border:1px black solid;
+	height:280px;
+}
+#main{
+	background:blue;
+	width:80%;
+	margin-top:15px;
+	border:1px black solid;
+	margin-left:10%;
+	margin-right:100px;
+	height: 300px;
+}
+a {
+  color: black;
+}
+
+
+#email:hover{
+	border: yellow 15px solid;
+}
+
+#call:hover{
+	border:15px yellow solid;
+}
